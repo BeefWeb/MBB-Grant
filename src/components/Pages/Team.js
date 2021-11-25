@@ -60,6 +60,9 @@ const Team = () => {
               <p>
                 PhD Candidate at the University of Bradford (Centre for Applied
                 Dementia Studies)
+
+                <p> Senior Lecturer (Mental Health Nursing) at Liverpool John Moores University
+                </p>
               </p>
             </div>
           </div>
