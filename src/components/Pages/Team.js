@@ -3,7 +3,6 @@ import Nav from "../Nav/Nav";
 import styled from "styled-components";
 import alayo from "../images/alayonimi_bifarin.jpeg";
 import tomiwa from "../images/olatomiwa_bifarin.jpg";
-import bukunmi from "../images/Bukunmi_Ajani.jpeg";
 import dayo from "../images/oladayo_bifarin.jpeg";
 import Footer from "../footer/Footer";
 import { useLocation } from "react-router-dom";
@@ -52,21 +51,10 @@ const Team = () => {
         <div className="team-container">
           <div className="team-content">
             <div className="img-container">
-              <img src={bukunmi} alt="bukunmi" />
-            </div>
-
-            <div className="team-txt">
-              <h5>Bukunmi Ajani</h5>
-              <p>
-                Incoming Anthropology Graduate Student at Georgia State
-                University
-              </p>
-            </div>
-          </div>
-          <div className="team-content">
-            <div className="img-container">
               <img src={dayo} alt="dayo" />
             </div>
+
+         
             <div className="team-txt">
               <h5>Oladayo Bifarin</h5>
               <p>

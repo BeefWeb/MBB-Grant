@@ -71,7 +71,7 @@ const Nav = () => {
             className="link-list"
             style={navbar ? themeColor : defaultColor}
           >
-            About Mama
+            About MBB
           </Link>
         </div>
         <div

@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import Nav from "../Nav/Nav";
 
-import why from "../images/why.jpeg";
-import solve from "../images/solve.jpeg";
-import track from "../images/track.jpeg";
+import why from "../images/why.png";
+import solve from "../images/solve.png";
+import track from "../images/track.png";
 
 const Home = () => {
   const { pathname } = useLocation();
@@ -24,7 +24,7 @@ const Home = () => {
         <div className="main-header">
           <div className="hr-sub-header">
             <p>
-              MBB microgrant program will give at least N250,000 ($607.05) grant
+              MBB microgrant program will give at least N250,000 (~ $600) grant
               to <span>at least</span> two teams / individuals in Nigeria to do
               something impactful.
             </p>
@@ -59,14 +59,13 @@ const Home = () => {
             <div className="txt">
               <p>
                 MBB grant was started by Olatomiwa Bifarin. The grant is named
-                after his grandmother Mary Babatola Bifarin [1927-2010] who was
-                a maternity nurse from Imesi-Ile in Osun-State Nigeria. You can
+                after his late grandmother Mary Babatola Bifarin [1927-2010]. 
+                You can
                 read more about her{" "}
                 <span>
                   {" "}
-                  <Link to="/About">here</Link>{" "}
-                </span>
-                . This personal grantmaking endeavor is an experiment to foster
+                  <Link to="/About">here.</Link>{" "}
+                </span>This personal grantmaking endeavor is an experiment to foster
                 innovative thinking amongst young people in Nigeria. To foster
                 foresights and responsibility by taking on challenging problems
                 in the society.
@@ -79,9 +78,9 @@ const Home = () => {
       <SubHeader>
         <div className="header">
           <h2>
-            Do something interesting that makes a (potential)
+            Do something interesting that makes an
             <br />
-            impact in our community.
+            impact in your community.
           </h2>
         </div>
         <div className="header-content">
@@ -90,7 +89,7 @@ const Home = () => {
           </div>
           <div className="header-col">
             <p>
-              Olatomiwa Bifarin has started the fund up with a donation of
+              Olatomiwa Bifarin will start the fund up with a donation of
               $1000. As a Post-doc, who still live on a stipend, and doing so
               right in the middle of Atlanta, he wishes he can do better.
             </p>
@@ -123,7 +122,7 @@ const Home = () => {
               <img src={track} alt="track" />
             </div>
             <div className="track-subHeader">
-              <span>01</span>
+              
               <h2>Humanities and Technology Track</h2>
             </div>
             <div className="track-content">
@@ -142,46 +141,43 @@ const Home = () => {
                   schoolgirls in Northern Nigeria.
                 </li>
                 <li>
-                  Interesting and impactful applications of blockchain
-                  technologies and you need some money that will assist.
+                  Web 3.0, AI/Machine Learning Projects etc and you need some money to assist. 
                 </li>
                 <li>
-                  Say you want to write an interesting book or blog but need
+                  Say you want to write an interesting book or a blog but need
                   money to do some difficult research.
                 </li>
                 <li>
                   Using AI for say, an interesting indigenous language research
                   (like language preservation),
                 </li>
-                <li>Computational biology projects,</li>
                 <li>
                   You want to shoot a unique documentary or film that you think
                   will be impactful, so you need cameras, but you can’t afford
                   it or something of the sort (for example filming/documenting a
                   dying art in your village),
                 </li>
-                <li>Alternative school projects,</li>
-                <li>Applied computer vision project, etc.</li>
+                <li>Alternative school projects.</li>
+                
               </ul>
             </div>
           </div>
           <div className="track-row">
             <div></div>
             <div className="track-subHeader">
-              <span>02</span>
+              
               <h2>Nursing Track</h2>
             </div>
             <div className="track-content">
               <span>02</span>
               <p>
-                Since my grandma was a nurse, I would like to keep one track
-                that is exclusive for nurses in training, and I will be only
-                funding Nursing students or interns affiliated with Obafemi
-                Awolowo University Teaching Hospital (OAUTHC) in Ile-Ife
+                Since my grandma was a nurse, I would keep one track
+                that is exclusive for nurses in training. I will be funding only
+                Nursing students or interns affiliated with <b>Obafemi
+                Awolowo University Teaching Hospital (OAUTHC)</b> in Ile-Ife
                 Nigeria, as this will require a more hands-on approach and we
                 have volunteer staff nurses who are willing to help as mentors.
-                Example of research/project could be researching maternal
-                deaths, say. It could be anything related to nursing.
+                Any research/project related to nursing is acceptable.
               </p>
             </div>
           </div>

@@ -14,7 +14,7 @@ const Globalstyles = createGlobalStyle`
     }
 
     h1, h2, h3, h4, h5, h6 {
-        font-family: 'Mulish', sans-serif;
+        font-family: 'Inter', sans-serif;
         color: #ffffff;
 
         &:first-child {

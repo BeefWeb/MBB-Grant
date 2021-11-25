@@ -10,7 +10,7 @@ const About = () => {
       <Nav />
       <AboutSection>
         <div className="about-header">
-          <h2>About Mama</h2>
+          <h2>About Mary Babatola Bifarin </h2>
         </div>
         <div className="about-content">
           <div className="about-img">

@@ -21,11 +21,10 @@ const Faq = () => {
             <h1>FAQ</h1>
           </div>
           <div className="hr-sub-header">
-            <p>
-              MBB microgrant program will give at least N250,000 ($607.05) grant
-              to <span>at least</span> two teams / individuals to do something
-              impactful - that contributes positively to their communities -in
-              Nigeria.
+          <p>
+              MBB microgrant program will give at least N250,000 (~ $600) grant
+              to <span>at least</span> two teams / individuals in Nigeria to do
+              something impactful.
             </p>
           </div>
         </div>
@@ -39,8 +38,8 @@ const Faq = () => {
             </div>
             <div className="answer">
               <p>
-                For nurses, see details in the nursing track. For
-                Humanities/Technolgy track. No academic qualifications, but if
+                For nurses, see details in the nursing track on the home page. For
+                Humanities/Technology track. No academic qualifications, but if
                 you have relevant academic qualification be sure to state that
                 in your application.
               </p>
@@ -53,7 +52,7 @@ const Faq = () => {
             <div className="answer">
               <p>
                 Yes. For transparency purposes and to magnify the positive
-                impact/idea.
+                impact.
               </p>
             </div>
           </div>
@@ -78,13 +77,13 @@ const Faq = () => {
           <div className="question-ans">
             <div className="question">
               <h4>
-                My project is a little complicated, and i will need more that
+                My project is a little complicated, and I will need more that
                 N250,000?
               </h4>
             </div>
             <div className="answer">
               <p>
-                Submit your application anyways. If it's terribly good. We might
+                Submit your application anyways. If it's <i>terribly</i> good. We might
                 be able to find a way around that. Otherwise, preference goes to
                 the N250k cap.
               </p>
@@ -100,23 +99,23 @@ const Faq = () => {
           </div>
           <div className="question-ans">
             <div className="question">
-              <h4>How will i get the money?</h4>
+              <h4>How will I get the money?</h4>
             </div>
             <div className="answer">
               <p>
                 Ideally in tow or more chunks (directly in your bank accounts or
-                viaPaypal), you will nedd to give project update to initiate
+                via Paypal), you will need to give project update to initiate
                 each round of collection
               </p>
             </div>
           </div>
           <div className="question-ans">
             <div className="question">
-              <h4>I have additional questions, how do i contact you?</h4>
+              <h4>I have additional questions, how do I contact you?</h4>
             </div>
             <div className="answer">
               <p>
-                Only on <span>mbbifaringrant@gmail.com</span>
+                Send an e-mail to <span>mbbifaringrant@gmail.com</span>
               </p>
             </div>
           </div>
@@ -129,6 +128,11 @@ const Faq = () => {
                 I write a newsletter at{" "}
                 <a href="https://www.bifarinthefifth.substack.com">
                   bifarinthefifth.substack.com
+                </a>{" "}, I am on {" "}
+                <a href="https://twitter.com/BifarinTheFifth">
+                     twitter </a>{" "}, {" "}
+                <a href="https://www.instagram.com/bifarinthefifth/">
+                  instagram
                 </a>{" "}
                 and i will share updates there.
               </p>
