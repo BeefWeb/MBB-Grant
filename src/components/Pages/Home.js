@@ -31,11 +31,12 @@ const Home = () => {
           </div>
           <div className="sub-header">
             <h1>
-              The <span> Mary Babatola Bifarin Grant </span> [MBB Grant]
+              The <span> Mary Babatola Bifarin Grant </span> [MBB Grant] (Coming
+
             </h1>
           </div>
           <div className="btn-apply">
-            <a
+          <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSetl5HMmtOSeJCcnEwPTdlicIQuT1pfBL-2Xb6M2c3bKnv_XA/viewform?usp=sf_link"
               target="_blank"
               rel="noreferrer"
@@ -93,10 +94,24 @@ const Home = () => {
               right in the middle of Atlanta, he wishes he can do better.
             </p>
             <p>
-              If you have read his PhD Memoir <span>essay</span> and found it
+              If you have read his PhD Memoir <span><a
+              href="https://bifarinthefifth.substack.com/p/wander"
+              target="_blank"
+              rel="noreferrer"
+              
+            >
+              essay
+            </a></span> and found it
               useful - and if you are able to - kindly consider donating to the
-              fund <span>here.</span>
-              If you like to be a sponsor anyway, that's also fine!
+              fund <span>
+              <a
+              href="https://www.gofundme.com/f/mbb-grantee-sponsor?qid=38048c5047b25fffed23d1728d021e44"
+              target="_blank"
+              rel="noreferrer"
+              
+            >
+              here
+            </a></span>  If you like to be a sponsor anyway, that's also fine!
             </p>
           </div>
         </div>
