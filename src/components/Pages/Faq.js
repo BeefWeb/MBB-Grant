@@ -59,7 +59,7 @@ const Faq = () => {
           <div className="question-ans">
             <div className="question">
               <h4>
-                How do I know of the outcome of my application?
+                How do I know the outcome of my application?
               </h4>
             </div>
             <div className="answer">
