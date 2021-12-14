@@ -32,7 +32,7 @@ const Team = () => {
 
             <div className="team-txt">
               <h4>Program Manager</h4>
-              <h5>Olatomiwa Bifarin, PhD.</h5>
+              <h5>Olatomiwa Bifarin, Ph.D.</h5>
               <p>Postdoctoral Fellow at Georgia Tech</p>
             </div>
           </div>
@@ -74,7 +74,7 @@ const Team = () => {
 
          
             <div className="team-txt">
-              <h5>Obiora Okechukwu</h5>
+              <h5>Obiora Okechukwu, Ph.D.</h5>
             
 
                 <p> Lecturer at Newcastle Business School, Northumbria University
@@ -89,7 +89,7 @@ const Team = () => {
 
          
             <div className="team-txt">
-              <h5>Taiwo Akinyemi</h5>
+              <h5>Taiwo Akinyemi, Ph.D.</h5>
             
 
                 <p> Application Scientist at Integrated DNA Technologies

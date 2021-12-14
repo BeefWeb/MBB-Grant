@@ -103,7 +103,7 @@ const Faq = () => {
             </div>
             <div className="answer">
               <p>
-                Ideally in tow or more chunks (directly in your bank accounts or
+                Ideally in two or more chunks (directly in your bank accounts or
                 via Paypal), you will need to give project update to initiate
                 each round of collection
               </p>
@@ -121,7 +121,7 @@ const Faq = () => {
           </div>
           <div className="question-ans">
             <div className="question">
-              <h4>How can i get updates about this project?</h4>
+              <h4>How can I get updates about this project?</h4>
             </div>
             <div className="answer">
               <p>

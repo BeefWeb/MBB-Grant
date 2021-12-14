@@ -95,7 +95,7 @@ const Nav = () => {
             Apply
           </a>
           <Link to="/About" onClick={closeNav}>
-            About Mama
+            About MBB
           </Link>
         </div>
       </MobileNav>
