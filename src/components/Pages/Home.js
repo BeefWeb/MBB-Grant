@@ -109,8 +109,8 @@ const Home = () => {
         </div>
         <div className="goal-txt">
           <p>
-            There are two categories of projects/research that i am looking to
-            fund. One is open ended, while the other is relatively restrictive.
+            There are two categories of projects/research that I am looking to
+            fund. One is open-ended, while the other is relatively restrictive.
           </p>
         </div>
       </Goals>
@@ -148,14 +148,14 @@ const Home = () => {
                   money to do some difficult research.
                 </li>
                 <li>
-                  Using AI for say, an interesting indigenous language research
-                  (like language preservation),
+                  Using AI, for instance, for an interesting indigenous language research
+                  (like language preservation).
                 </li>
                 <li>
                   You want to shoot a unique documentary or film that you think
                   will be impactful, so you need cameras, but you can’t afford
                   it or something of the sort (for example filming/documenting a
-                  dying art in your village),
+                  dying art in your village).
                 </li>
                 <li>Alternative school projects.</li>
                 

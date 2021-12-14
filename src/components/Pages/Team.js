@@ -4,6 +4,9 @@ import styled from "styled-components";
 import alayo from "../images/alayonimi_bifarin.jpeg";
 import tomiwa from "../images/olatomiwa_bifarin.jpg";
 import dayo from "../images/oladayo_bifarin.jpeg";
+import taiwo from "/Users/user/Documents/MBB-Grant/MMBG--master/src/components/images/taiwo.jpg";
+import obiora from "/Users/user/Documents/MBB-Grant/MMBG--master/src/components/images/obiora.jpg";
+import dami from "/Users/user/Documents/MBB-Grant/MMBG--master/src/components/images/dami.jpg";
 import Footer from "../footer/Footer";
 import { useLocation } from "react-router-dom";
 
@@ -28,9 +31,9 @@ const Team = () => {
             </div>
 
             <div className="team-txt">
-              <h4>Founder/Program Manager</h4>
+              <h4>Program Manager</h4>
               <h5>Olatomiwa Bifarin, PhD.</h5>
-              <p>Chemistry PostDoc Fellow at Georgia Tech</p>
+              <p>Postdoctoral Fellow at Georgia Tech</p>
             </div>
           </div>
           <div className="team-content">
@@ -60,6 +63,51 @@ const Team = () => {
             
 
                 <p> Senior Lecturer (Mental Health Nursing) at Liverpool John Moores University
+              
+              </p>
+            </div>
+          </div>
+          <div className="team-content">
+            <div className="img-container">
+              <img src={obiora} alt="obiora" />
+            </div>
+
+         
+            <div className="team-txt">
+              <h5>Obiora Okechukwu</h5>
+            
+
+                <p> Lecturer at Newcastle Business School, Northumbria University
+              
+              </p>
+            </div>
+          </div>
+          <div className="team-content">
+            <div className="img-container">
+              <img src={taiwo} alt="taiwo" />
+            </div>
+
+         
+            <div className="team-txt">
+              <h5>Taiwo Akinyemi</h5>
+            
+
+                <p> Application Scientist at Integrated DNA Technologies
+              
+              </p>
+            </div>
+          </div>
+          <div className="team-content">
+            <div className="img-container">
+              <img src={dami} alt="dami" />
+            </div>
+
+         
+            <div className="team-txt">
+              <h5>Oluwadamilola Agnes Fadodun</h5>
+            
+
+                <p> MSc Nursing Candidate, AB, Canada
               
               </p>
             </div>
