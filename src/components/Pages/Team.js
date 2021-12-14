@@ -4,9 +4,9 @@ import styled from "styled-components";
 import alayo from "../images/alayonimi_bifarin.jpeg";
 import tomiwa from "../images/olatomiwa_bifarin.jpg";
 import dayo from "../images/oladayo_bifarin.jpeg";
-import taiwo from "/Users/user/Documents/MBB-Grant/MMBG--master/src/components/images/taiwo.jpg";
-import obiora from "/Users/user/Documents/MBB-Grant/MMBG--master/src/components/images/obiora.jpg";
-import dami from "/Users/user/Documents/MBB-Grant/MMBG--master/src/components/images/dami.jpg";
+import taiwo from "../images/taiwo.jpg";
+import obiora from "../images/obiora.jpg";
+import dami from "../images/dami.jpg";
 import Footer from "../footer/Footer";
 import { useLocation } from "react-router-dom";
 
