@@ -59,6 +59,18 @@ const Faq = () => {
           <div className="question-ans">
             <div className="question">
               <h4>
+                How do I know of the outcome of my application?
+              </h4>
+            </div>
+            <div className="answer">
+              <p>
+                Only successful grant applicants will be contacted.
+              </p>
+            </div>
+          </div>
+          <div className="question-ans">
+            <div className="question">
+              <h4>
                 What does your ideal winning team/individual/project look like
                 (esp. for Humanities/STEM Track)?
               </h4>
