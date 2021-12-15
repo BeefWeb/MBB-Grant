@@ -31,7 +31,7 @@ const Home = () => {
           </div>
           <div className="sub-header">
             <h1>
-              The <span> Mary Babatola Bifarin Grant </span> [MBB Grant] (Coming
+              The <span> Mary Babatola Bifarin Grant </span> [MBB Grant]
 
             </h1>
           </div>
