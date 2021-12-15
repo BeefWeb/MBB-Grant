@@ -7,6 +7,7 @@ import dayo from "../images/oladayo_bifarin.jpeg";
 import taiwo from "../images/taiwo.jpg";
 import obiora from "../images/obiora.jpg";
 import dami from "../images/dami.jpg";
+import pelumi from "../images/pelumi.jpg"
 import Footer from "../footer/Footer";
 import { useLocation } from "react-router-dom";
 
@@ -108,6 +109,21 @@ const Team = () => {
             
 
                 <p> MSc Nursing Candidate, AB, Canada
+              
+              </p>
+            </div>
+          </div>
+          <div className="team-content">
+            <div className="img-container">
+              <img src={pelumi} alt="pelumi" />
+            </div>
+
+         
+            <div className="team-txt">
+              <h5>Adeyera Oluwapelumi </h5>
+            
+
+                <p> International RME consultant, Tearfund.
               
               </p>
             </div>
