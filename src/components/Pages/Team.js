@@ -70,15 +70,15 @@ const Team = () => {
           </div>
           <div className="team-content">
             <div className="img-container">
-              <img src={obiora} alt="obiora" />
+              <img src={pelumi} alt="pelumi" />
             </div>
 
          
             <div className="team-txt">
-              <h5>Obiora Okechukwu, Ph.D.</h5>
+              <h5>Adeyera Pelumi</h5>
             
 
-                <p> Lecturer at Newcastle Business School, Northumbria University
+                <p> International RME Consultant, Tearfund.
               
               </p>
             </div>
@@ -115,15 +115,15 @@ const Team = () => {
           </div>
           <div className="team-content">
             <div className="img-container">
-              <img src={pelumi} alt="pelumi" />
+              <img src={obiora} alt="obiora" />
             </div>
 
          
             <div className="team-txt">
-              <h5>Adeyera Oluwapelumi </h5>
+              <h5>Obiora Okechukwu, Ph.D.</h5>
             
 
-                <p> International RME consultant, Tearfund.
+                <p> Lecturer at Newcastle Business School, Northumbria University
               
               </p>
             </div>
