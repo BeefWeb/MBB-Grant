@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { useLocation } from "react-router-dom";
 
 const Nav = () => {
   const [toggler, setToggler] = useState(false);
   const [navbar, setNavbar] = useState(false);
+  const { pathname } = useLocation();
 
   const toggleNav = () => {
     setToggler(!toggler);
@@ -20,7 +22,9 @@ const Nav = () => {
       setNavbar(false);
     }
   };
+
   window.addEventListener("scroll", changeBackground);
+
   const theme = {
     background: "#f3f3f3",
     color: "black",
@@ -33,6 +37,9 @@ const Nav = () => {
   };
   const defaultColor = {
     color: "white",
+  };
+  const active = {
+    color: "#ffe066",
   };
 
   return (
@@ -47,14 +54,18 @@ const Nav = () => {
           <Link
             to="/Faq"
             className="link-list"
-            style={navbar ? themeColor : defaultColor}
+            style={
+              pathname === "/Faq" ? active : navbar ? themeColor : defaultColor
+            }
           >
             FAQ
           </Link>
           <Link
             to="/Team"
             className="link-list"
-            style={navbar ? themeColor : defaultColor}
+            style={
+              pathname === "/Team" ? active : navbar ? themeColor : defaultColor
+            }
           >
             Team
           </Link>
@@ -69,9 +80,28 @@ const Nav = () => {
           <Link
             to="/About"
             className="link-list"
-            style={navbar ? themeColor : defaultColor}
+            style={
+              pathname === "/About"
+                ? active
+                : navbar
+                ? themeColor
+                : defaultColor
+            }
           >
             About MBB
+          </Link>
+          <Link
+            to="/mbb-winners"
+            className="link-list"
+            style={
+              pathname === "/mbb-winners"
+                ? active
+                : navbar
+                ? themeColor
+                : defaultColor
+            }
+          >
+            MBB Winners
           </Link>
         </div>
         <div
@@ -85,17 +115,52 @@ const Nav = () => {
       </NavBar>
       <MobileNav>
         <div className={`mobile-links ${toggler ? "show-links" : " "}`}>
-          <Link to="/Faq" onClick={closeNav}>
+          <Link
+            to="/Faq"
+            onClick={closeNav}
+            style={
+              pathname === "/Faq" ? active : navbar ? themeColor : defaultColor
+            }
+          >
             FAQ
           </Link>
-          <Link to="/Team" onClick={closeNav}>
+          <Link
+            to="/Team"
+            onClick={closeNav}
+            style={
+              pathname === "/Team" ? active : navbar ? themeColor : defaultColor
+            }
+          >
             Team
           </Link>
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSetl5HMmtOSeJCcnEwPTdlicIQuT1pfBL-2Xb6M2c3bKnv_XA/viewform?usp=sf_link">
             Apply
           </a>
-          <Link to="/About" onClick={closeNav}>
+          <Link
+            to="/About"
+            onClick={closeNav}
+            style={
+              pathname === "/About"
+                ? active
+                : navbar
+                ? themeColor
+                : defaultColor
+            }
+          >
             About MBB
+          </Link>
+          <Link
+            to="/mbb-winners"
+            onClick={closeNav}
+            style={
+              pathname === "/mbb-winners"
+                ? active
+                : navbar
+                ? themeColor
+                : defaultColor
+            }
+          >
+            MBB Winners
           </Link>
         </div>
       </MobileNav>

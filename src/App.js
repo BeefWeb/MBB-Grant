@@ -7,6 +7,7 @@ import Home from "./components/Pages/Home";
 import Faq from "./components/Pages/Faq";
 import Team from "./components/Pages/Team";
 import About from "./components/Pages/About";
+import Winners from "./components/Pages/Winners";
 import ScrollTop from "./components/Pages/ScrollTop";
 /** Pages */
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="/Faq" component={Faq} />
           <Route path="/Team" component={Team} />
           <Route path="/About" component={About} />
+          <Route path="/mbb-winners" component={Winners} />
         </Switch>
       </Router>
     </>
