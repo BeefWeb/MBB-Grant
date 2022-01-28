@@ -7,7 +7,7 @@ import dayo from "../images/oladayo_bifarin.jpeg";
 import taiwo from "../images/taiwo.jpg";
 import obiora from "../images/obiora.jpg";
 import dami from "../images/dami.jpg";
-import pelumi from "../images/pelumi.jpg"
+import pelumi from "../images/pelumi.jpg";
 import Footer from "../footer/Footer";
 import { useLocation } from "react-router-dom";
 
@@ -58,13 +58,12 @@ const Team = () => {
               <img src={dayo} alt="dayo" />
             </div>
 
-         
             <div className="team-txt">
               <h5>Oladayo Bifarin</h5>
-            
 
-                <p> Senior Lecturer (Mental Health Nursing) at Liverpool John Moores University
-              
+              <p>
+                Senior Lecturer (Mental Health Nursing) at Liverpool John Moores
+                University
               </p>
             </div>
           </div>
@@ -73,14 +72,9 @@ const Team = () => {
               <img src={pelumi} alt="pelumi" />
             </div>
 
-         
             <div className="team-txt">
               <h5>Adeyera Pelumi</h5>
-            
-
-                <p> International RME Consultant, Tearfund.
-              
-              </p>
+              <p> International RME Consultant, Tearfund.</p>
             </div>
           </div>
           <div className="team-content">
@@ -88,14 +82,10 @@ const Team = () => {
               <img src={taiwo} alt="taiwo" />
             </div>
 
-         
             <div className="team-txt">
               <h5>Taiwo Akinyemi, Ph.D.</h5>
-            
 
-                <p> Application Scientist at Integrated DNA Technologies
-              
-              </p>
+              <p> Application Scientist at Integrated DNA Technologies</p>
             </div>
           </div>
           <div className="team-content">
@@ -103,14 +93,10 @@ const Team = () => {
               <img src={dami} alt="dami" />
             </div>
 
-         
             <div className="team-txt">
               <h5>Oluwadamilola Agnes Fadodun</h5>
-            
 
-                <p> MSc Nursing Candidate, AB, Canada
-              
-              </p>
+              <p> MSc Nursing Candidate, AB, Canada</p>
             </div>
           </div>
           <div className="team-content">
@@ -118,13 +104,12 @@ const Team = () => {
               <img src={obiora} alt="obiora" />
             </div>
 
-         
             <div className="team-txt">
               <h5>Obiora Okechukwu, Ph.D.</h5>
-            
 
-                <p> Lecturer at Newcastle Business School, Northumbria University
-              
+              <p>
+                {" "}
+                Lecturer at Newcastle Business School, Northumbria University
               </p>
             </div>
           </div>
@@ -147,7 +132,7 @@ const TeamSection = styled.section`
   }
   .team-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     align-items: center;
     .team-content {
       .img-container {

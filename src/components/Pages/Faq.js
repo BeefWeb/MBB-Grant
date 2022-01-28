@@ -21,7 +21,7 @@ const Faq = () => {
             <h1>FAQ</h1>
           </div>
           <div className="hr-sub-header">
-          <p>
+            <p>
               MBB microgrant program will give at least N250,000 (~ $600) grant
               to <span>at least</span> two teams / individuals in Nigeria to do
               something impactful.
@@ -38,10 +38,10 @@ const Faq = () => {
             </div>
             <div className="answer">
               <p>
-                For nurses, see details in the nursing track on the home page. For
-                Humanities/Technology track. No academic qualifications, but if
-                you have relevant academic qualification be sure to state that
-                in your application.
+                For nurses, see details in the nursing track on the home page.
+                For Humanities/Technology track. No academic qualifications, but
+                if you have relevant academic qualification be sure to state
+                that in your application.
               </p>
             </div>
           </div>
@@ -58,14 +58,10 @@ const Faq = () => {
           </div>
           <div className="question-ans">
             <div className="question">
-              <h4>
-                How do I know the outcome of my application?
-              </h4>
+              <h4>How do I know the outcome of my application?</h4>
             </div>
             <div className="answer">
-              <p>
-                Only successful grant applicants will be contacted.
-              </p>
+              <p>Only successful grant applicants will be contacted.</p>
             </div>
           </div>
           <div className="question-ans">
@@ -95,9 +91,9 @@ const Faq = () => {
             </div>
             <div className="answer">
               <p>
-                Submit your application anyways. If it's <i>terribly</i> good. We might
-                be able to find a way around that. Otherwise, preference goes to
-                the N250k cap.
+                Submit your application anyways. If it's <i>terribly</i> good.
+                We might be able to find a way around that. Otherwise,
+                preference goes to the N250k cap.
               </p>
             </div>
           </div>
@@ -140,9 +136,9 @@ const Faq = () => {
                 I write a newsletter at{" "}
                 <a href="https://www.bifarinthefifth.substack.com">
                   bifarinthefifth.substack.com
-                </a>{" "}, I am on {" "}
-                <a href="https://twitter.com/BifarinTheFifth">
-                     twitter </a>{" "}, {" "}
+                </a>{" "}
+                , I am on{" "}
+                <a href="https://twitter.com/BifarinTheFifth">twitter </a> ,{" "}
                 <a href="https://www.instagram.com/bifarinthefifth/">
                   instagram
                 </a>{" "}
@@ -181,7 +177,7 @@ const FaqHero = styled.section`
       line-height: 1.6;
     }
     span {
-      color: #aaa8a8;
+      color: #ffe066;
     }
   }
   @media screen and (max-width: 765px) {
